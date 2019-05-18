@@ -1,0 +1,77 @@
+    [1]
+
+val1 = ( 100 + 100 )
+val2 = ( 300 / 2 )
+DUMP
+val2 = ( 200 * 10 )
+DUMP
+
+
+
+    [2]
+
+val1 = 100
+val2 = val1
+val1 = ( 200 * 2 )
+val3 = val1
+DUMP
+
+
+
+    [3]
+
+val1 = ( ( 100 * 100 ) / 2 )
+val2 = val7
+
+
+
+    [4]
+
+val1 = ( 100 + 100 )
+val2 = ( 300 / 2 )
+val3 = ( 100 - 55 )
+val4 = ( 100 * 3 )
+val5 = ( 100 x 5 )
+DUMP
+val3 = ( ( 100 * 100 ) / 2 )
+val4 = ( ( 100 / 100 ) / 2 )
+val5 = ( ( 100 * 100 ) * 2 )
+val6 = ( ( 100 - 100 ) + 2 )
+val7 = ( ( 100 x 100 ) - 2 )
+val8 = ( ( 101 - 100 ) x 1 )
+DUMP
+NAME
+DUMP
+val9 = val8
+val10 = val9
+val11 = val1
+val12 = val3
+NAME
+DUMP
+
+
+
+     [5]
+
+val1 = ( 100 + 100 )
+val2 = ( 300 / 2 )
+val3 = ( 100 - 55 )
+val4 = ( 100 * 3 )
+val5 = ( 100 x 5 )
+DUMP
+val3 = ( ( 100 * 100 ) / 2 )
+val4 = ( ( 100 / 100 ) / 2 )
+val5 = ( ( 100 * 100 ) * 2 )
+val6 = ( ( 100 - 100 ) + 2 )
+val7 = ( ( 100 x 100 ) - 2 )
+val15 = val9
+val8 = ( ( 101 - 100 ) x 1 )
+DUMP
+NAME
+DUMP
+val9 = val8
+val10 = val9
+val11 = val1
+val12 = val3
+NAME
+DUMP

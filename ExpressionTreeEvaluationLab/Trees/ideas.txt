@@ -1,0 +1,11 @@
+-What about traversing a binary tree by splitting both sides into a separate execution thread
+ of the cpu? Or what about using 'os.fork()' and 'forking' each side of the tree?
+-Having each side of the tree be traversed on its own cpu-core (or cpu-thread?) ???
+
+-Spend some time looking at/practice writing the 'insertion_sort' algo
+ --It is a way to implement an 'ordered' data-structure, while inserting elements
+   --essentially performing 2 super-useful function, just at the same time.
+
+-Look into using/implementing the 'heap_sort' algorithm
+  --O(n log n) time
+  --faster than lots of other sorting algos.
