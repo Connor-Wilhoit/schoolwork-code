@@ -1,0 +1,9 @@
+List Comprehensions:
+	1) Reading from a file:
+		dictfile = open(filename, "r")
+		# possible comprehensions:
+		dictlist1 = [word.splitlines() for word in dictfile]
+		dictlist2 = [word.split() for word in dictfile]
+		# both of the above do essentially the same thing
+		dictlist3 = [word.strip() for word in dictfile]
+		# dictlist3 "strips" off all the newlines
