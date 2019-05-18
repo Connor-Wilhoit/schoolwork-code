@@ -1,0 +1,8 @@
+""" Basic implementation of a graph. Uses will be for storing data, in which the data
+    is usually a name-identifier, with a value.
+    Using the Graph will allow fairly fast lookups of data (when paired w/proper traveral-
+    algos) and will allow large systems of data to be built.
+
+    Could ideally be used for/with the "Dictionairies" lab, which allegedly will be used
+    in future labs.
+    """
